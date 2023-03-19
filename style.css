@@ -1,0 +1,85 @@
+body {
+  background-color: #27272a;
+  color: aqua;
+  font-family: "Open Sans", sans-serif;
+}
+
+#bg-container {
+  width: 1000px;
+  height: 720px;
+  background-color: #475569;
+  border-radius: 20px;
+  margin: 20px auto;
+}
+
+#app-container {
+  width: 320px;
+  height: 520px;
+  background-color: #67e8f9;
+  margin: 0 auto;
+  top: 20px;
+  position: relative;
+  border-radius: 5px;
+}
+
+#result {
+  height: 120px;
+}
+
+#history {
+  height: 20px;
+  padding-top: 20px;
+  /* background-color: #400fe1; */
+  color: #27272a;
+  text-align: right;
+  margin: 0 20px;
+  font-size: 15px;
+}
+
+#output {
+  height: 60px;
+  /* background-color: #a30d99; */
+  color: #27272a;
+  text-align: right;
+  margin: 10px 20px;
+  font-size: 30px;
+}
+
+#keyboard {
+  height: 400px;
+}
+
+.number,
+.operator,
+.empty {
+  width: 50px;
+  height: 50px;
+  margin: 15px;
+  float: left;
+  border-radius: 50%;
+  border-width: 0;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.operator {
+  background-color: #ecfccb;
+  color: #7f1d1d;
+}
+
+.empty {
+  background-color: #67e8f9;
+}
+
+.number:hover,
+.operator:hover {
+  background-color: #400fe1;
+  cursor: pointer;
+  color: aliceblue;
+}
+
+.number:click,
+.operator:click {
+  border-radius: 45%;
+  font-size: 14px;
+}
